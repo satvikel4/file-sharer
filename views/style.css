@@ -1,0 +1,27 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-container {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: auto 1fr;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+  .button-span {
+    grid-column: span 2;
+  }
+  
+  .file-message {
+    margin-bottom: 1rem;
+  }
+  
